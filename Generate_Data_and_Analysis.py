@@ -28,7 +28,7 @@ def generate_fakedata_1(definition, headers):
          
         print(i)   
 if __name__ == '__main__':
-    definition = 100
+    definition = 101
     headers = ["Temporary_Group_ID", "Name", "Birth Date", "Phone Number", "Country", "Link"]
     generate_fakedata_1(definition, headers)
     print("CSV has been generated.")
@@ -50,6 +50,7 @@ def generate_fakedata_2():
         writer.writerow(header)
         writer.writerow(data)
 
+# if __name__ == '__main__':
 # generate_fakedata_2()
-
+      
 
